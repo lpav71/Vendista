@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Exo 2.0 Black Italic';
+    src: url('/fonts/Exo_2.0_Black_Italic.ttf');
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#out {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#term {
+    width: 185px;
+    margin-top: 3rem;
+    bottom: 2rem;
+    position: relative;
+}
+
+select, input {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.38);
+}
+
+select:focus, input:focus {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.38) !important;
+}
+
+select option {
+    background: #f4f4f4;
+}
+
+.main-div {
+    overflow: clip;
+    padding: 1rem 3rem 2.3rem 2rem;
+    border: 1px solid #5680ff;
+    border-radius: 2rem;
+    box-shadow: 0px 13px 22px 5px rgba(0,0,0,0.17);
+}
+.select-command {
+    margin-left: 14rem;
+    margin-top: -4.4rem;
+}
+.header {
+    font-family: 'Exo 2.0 Black Italic';
+    width: 112%;
+    height: 41px;
+    background: #5680ff;
+    margin-top: -1rem;
+    margin-left: -4rem;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+}
+.send {
+    color: #5680ff;
+    border: 1px solid #5680ff;
+}
+
+.btn-outline-info:hover {
+    color: white;
+    background-color: #5680ff;
+    border-color: #5680ff;
+}
+
+.btn-outline-info:focus {
+    box-shadow: 0px 0px 8px .25rem #dde5fd;
+}
+
+.btn-outline-info:active {
+    color: white;
+    background-color: #5680ff;
+    border-color: #5680ff;
+}
+
+.btn-outline-info:active:focus {
+    box-shadow: 0px 0px 8px .25rem #dde5fd;
+}
